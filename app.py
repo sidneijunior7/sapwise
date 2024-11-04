@@ -5,6 +5,8 @@ import time
 #           INICIO DO CÓDIGO                                    +
 # ===============================================================+
 
+st.set_page_config(page_title='SAP Wise', layout='wide', initial_sidebar_state='collapsed', page_icon=':material/memory:')
+
 # Configure sua chave de API da OpenAI
 MY_API = st.secrets.openai.OPENAI_KEY
 MY_ASSISTANT = st.secrets.openai.ASSISTANT_KEY
